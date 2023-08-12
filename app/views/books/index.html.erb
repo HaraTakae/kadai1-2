@@ -1,4 +1,5 @@
 <h1>Books</h1>
+
 <table>
   <thead>
     <tr>
@@ -12,10 +13,10 @@
       <td>リーダブルコード</td>
       <td>より良いコードを書くためにシンプルで実践的なテクニック</td>
       <td>
-        <a href= "show">Show</a>
+        <a href="show">Show</a>
       </td>
       <td>
-        <a href= "edit">Edit</a>
+        <a href="edit">Edit</a>
       </td>
       <td>
         <a href= "destroy">Destroy</a>
@@ -156,12 +157,14 @@
 
 <h2>New book</h2>
 <%= form_with model: @book do |f| %>
+
 <div class="field">
   <div>Title</div>
   <%= f.text_field :title %>
   <div>Body</div>
   <%= f.text_area :body %>
-  
+
   <%= f.submit 'Create Book' %>
 </div>
+
 <% end %>
