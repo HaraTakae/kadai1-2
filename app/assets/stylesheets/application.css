@@ -12,3 +12,40 @@
  *
  *= require_tree .
  *= require_self
+ */
+
+body {
+  margin: 40px;
+  font-size: 17px;
+}
+
+header {
+  margin: 35px auto 40px 60px;
+  color: green;
+}
+
+strong {
+  margin: 35px auto 40px 30px;
+  line-height: 30px;
+}
+
+td {
+  margin: 30px auto 40px 30px;
+}
+
+table {
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+p {
+  margin: 25px auto 20px 30px;
+}
+
+.field {
+  width: 70px;
+  line-height: 35px;
+}
+
+
+
